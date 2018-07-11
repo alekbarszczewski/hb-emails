@@ -1,0 +1,12 @@
+{{#*inline "subject"}}
+  Witaj {{ name }}!
+{{/inline}}
+
+{{#> layout}}
+
+  {{#*inline "header"}}
+    Witaj!
+  {{/inline}}
+
+  Jakaś Treść, <span class="link">{{ link }}</span>
+{{/layout}}
