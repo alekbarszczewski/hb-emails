@@ -91,7 +91,7 @@ class HBEmails {
 
   loadTemplate (templateName, templatePath) {
     const subTemplates = readdirSync(templatePath)
-    .map(fileName => fileName.match(/^welcome-(..)\.hbs$/))
+    .map(fileName => fileName.match(/^.+-(..)\.hbs$/))
     .filter(matches => matches)
     .map(([fileName, lang]) => ({ fileName, lang }))
 
