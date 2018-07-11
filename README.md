@@ -1,4 +1,4 @@
-# gb-emails
+# hb-emails
 
 Work in progress
 
